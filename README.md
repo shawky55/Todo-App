@@ -1,21 +1,13 @@
-# Todo app solution
+# Todo app 
 
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Screenshot](#screenshot)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 - small tode app with alot of features 
@@ -24,6 +16,12 @@
 - Responsive with all different screen size
 - has button help you to get focus todo you want to look
 - soon i will add more feature to it 
+
+
+### Links
+
+- Solution URL: [ solution URL ](https://your-solution-url.com)
+- Live Site URL: [ live site URL ](https://your-live-site-url.com)
 
 ### Screenshot
 
@@ -34,10 +32,7 @@
 ![active-statue](./design/selected-itmes.png);
 
 
-### Links
 
-- Solution URL: [ solution URL ](https://your-solution-url.com)
-- Live Site URL: [ live site URL ](https://your-live-site-url.com)
 
 
 

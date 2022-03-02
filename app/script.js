@@ -181,3 +181,11 @@ COMPLETE_BTN.addEventListener('click', completedTodos);
 ALL_MOBILE_BTN.addEventListener('click', AllTode);
 COMPLETED_MOBILE_BTN.addEventListener('click', completedTodos);
 ACTIVE_MOBILE_BTN.addEventListener('click', ActiveTodo);
+
+/**
+ * comming :
+ * 1-make ul be moveable 
+ * 2-fix input field issue
+ * 3-add local stroge
+ * 
+ */
