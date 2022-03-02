@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Todo app</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="app/script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="top-side top-dark-background">
+          <div class="inner-container">
+            <div class="title">
+              <h1>Todo</h1>
+              <div class="theme-control">
+                <img
+                  class="sun-icon"
+                  src="images/icon-sun.svg"
+                  alt="light-theme-icon"
+                />
+                <img
+                  class="moon-icon hidden"
+                  src="images/icon-moon.svg"
+                  alt="dark-theme-icon"
+                />
+              </div>
+            </div>
+            <form action="" class="dark-mode-bg">
+              <div id="check" class="checkBox"></div>
+              <input
+                id="todoInput"
+                class=""
+                type="text"
+                placeholder="Create a new todo"
+                name="todo"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="bottom-side bottom-dark-background">
+          <!-- //javascript -->
+          <div class="inner-container">
+            <div class="todo-list dark-mode-bg">
+              <ul>
+                <div  id="welcomMessage"class="message">😄 <span>There no mission to See let's write it and work hard to finish</span></div>
+              </ul>
+            </div>
+            <div class="info dark-mode-bg">
+              <small class="todo-counter"><span>0</span> items left</small>
+              <small class="all-button mobile-mode">All</small>
+              <small class="Active-button mobile-mode">Active</small>
+              <small class="completed-button mobile-mode">Completed</small>
+              <small class="clear-button mob-view">Clear Completed</small>
+            </div>
+            <div class="mobile-view dark-mode-bg">
+              <small class="all-mobile-btn">All</small>
+              <small class="active-mobile-btn">Active</small>
+              <small class="completed-mobile-btn">Completed</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add dynamic number -->
+    </main>
+  </body>
+</html>
