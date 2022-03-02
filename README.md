@@ -20,8 +20,8 @@
 
 ### Links
 
-- Solution URL: [ solution URL ](https://your-solution-url.com)
-- Live Site URL: [ live site URL ](https://your-live-site-url.com)
+- Solution URL: [ solution URL ](https://github.com/shawky55/Todo-App)
+- Live Site URL: [ live site URL ](https://shawky55.github.io/Todo-App/)
 
 ### Screenshot
 
