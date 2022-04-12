@@ -9,7 +9,6 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Todo app</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,13 +20,13 @@
 
     <script defer src="app/script.js"></script>
   </head>
-  <body>
+  <body class="bottom-dark-background">
     <main>
-      <div class="container">
+      
         <div class="top-side top-dark-background">
           <div class="inner-container">
-            <div class="title">
-              <h1>Todo</h1>
+            <div class="top-side__interface">
+              <h1 class="top-side__heading">Todo</h1>
               <div class="theme-control">
                 <img
                   class="sun-icon"
@@ -53,11 +52,11 @@
             </form>
           </div>
         </div>
-        <div class="bottom-side bottom-dark-background">
+        <div class="bottom-side">
           <!-- //javascript -->
           <div class="inner-container">
             <div class="todo-list dark-mode-bg">
-            <div  id="welcomMessage"class="message">😄 <span>There no mission to See let's plan it and work hard to finish</span></div>
+            <div  id="welcomMessage"class="message">Add todo </div>
 
               <ul>
               </ul>
@@ -76,7 +75,7 @@
             </div>
           </div>
         </div>
-      </div>
+    
       <!-- Add dynamic number -->
     </main>
   </body>

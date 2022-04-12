@@ -1,13 +1,13 @@
 'use strict';
 //two main section
 const TOP_SIDE = document.querySelector('.top-side');
-const BOTTOM_SIDE = document.querySelector('.bottom-side');
 ///
 
 //Theme control
 const THEME_CONTROL = document.querySelector('.top-side .theme-control');
 const sunIcon = THEME_CONTROL.querySelector('.sun-icon');
 const moonIcon = THEME_CONTROL.querySelector('.moon-icon');
+const mybode = document.querySelector('body');
 
 //Form
 const TODO_INPUT = document.getElementById('todoInput');
@@ -41,8 +41,8 @@ const modeToggle = () => {
   moonIcon.classList.toggle('hidden');
   TOP_SIDE.classList.toggle('top-light-background');
   FORM.classList.toggle('light-mode-bg');
-  BOTTOM_SIDE.classList.toggle('bottom-light-background');
   TODO_LIST.classList.toggle('light-mode-bg');
+  mybode.classList.toggle('bottom-dark-background');
   INFO.classList.toggle('light-mode-bg');
   MOBILE_VIEW?.classList.toggle('light-mode-bg');
 };
@@ -181,4 +181,3 @@ COMPLETE_BTN.addEventListener('click', completedTodos);
 ALL_MOBILE_BTN.addEventListener('click', AllTode);
 COMPLETED_MOBILE_BTN.addEventListener('click', completedTodos);
 ACTIVE_MOBILE_BTN.addEventListener('click', ActiveTodo);
-
